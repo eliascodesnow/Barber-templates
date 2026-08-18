@@ -1,15 +1,15 @@
 import { useState, useCallback } from "react";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Services from "./components/Services";
-import About from "./components/About";
-import Gallery from "./components/Gallery";
-import Team from "./components/Team";
-import Testimonials from "./components/Testimonials";
-import BookingCTA from "./components/BookingCTA";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import { defaultShopConfig } from "./data/shopConfig";
+import Navbar from "./Navbar";
+import Hero from "./Hero";
+import Services from "./Services";
+import About from "./About";
+import Gallery from "./Gallery";
+import Team from "./Team";
+import Testimonials from "./Testimonials";
+import BookingCTA from "./BookingCTA";
+import Contact from "./Contact";
+import Footer from "./Footer";
+import { defaultShopConfig } from "./shopConfig";
 
 function App() {
   const [whatsappNumber, setWhatsappNumber] = useState(() => {
@@ -107,11 +107,6 @@ function App() {
         <span className="absolute inset-0 rounded-full bg-[#25D366] animate-ping opacity-20" />
       </a>
 
-      {/* Settings panel for configuring WhatsApp number */}
-      <WhatsAppSettings
-        currentNumber={+254792656824}
-        onSave={handleSaveNumber}
-      />
     </div>
   );
 }

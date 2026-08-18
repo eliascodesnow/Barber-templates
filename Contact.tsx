@@ -1,5 +1,5 @@
 import { MapPin, Mail, Clock, Phone } from "lucide-react";
-import { useInView } from "../hooks/useInView";
+import { useInView } from "./useInView";
 
 interface ContactProps {
   address: string;

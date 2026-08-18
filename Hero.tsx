@@ -1,5 +1,5 @@
 import { ChevronDown, Star } from "lucide-react";
-import { useInView } from "../hooks/useInView";
+import { useInView } from "./useInView";
 
 interface HeroProps {
   shopName: string;

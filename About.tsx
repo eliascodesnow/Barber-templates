@@ -1,5 +1,5 @@
 import { Award, Users, Clock, Sparkles } from "lucide-react";
-import { useInView } from "../hooks/useInView";
+import { useInView } from "./useInView";
 
 interface AboutProps {
   shopName: string;

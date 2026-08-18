@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { X } from "lucide-react";
-import { useInView } from "../hooks/useInView";
+import { useInView } from "./useInView";
 
 interface GalleryProps {
   images: string[];

@@ -1,5 +1,5 @@
 import { Scissors, Clock, ArrowRight } from "lucide-react";
-import { useInView } from "../hooks/useInView";
+import { useInView } from "./useInView";
 
 interface Service {
   name: string;
