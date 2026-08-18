@@ -1,5 +1,5 @@
 import { MessageCircle } from "lucide-react";
-import { useInView } from "../hooks/useInView";
+import { useInView } from "./useInView";
 
 interface BookingCTAProps {
   onBookNow: () => void;

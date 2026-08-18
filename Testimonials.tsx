@@ -1,5 +1,5 @@
 import { Star, Quote } from "lucide-react";
-import { useInView } from "../hooks/useInView";
+import { useInView } from "./useInView";
 
 interface Testimonial {
   name: string;

@@ -1,4 +1,4 @@
-import { useInView } from "../hooks/useInView";
+import { useInView } from "./useInView";
 
 interface TeamMember {
   name: string;
